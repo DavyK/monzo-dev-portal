@@ -1,0 +1,32 @@
+{
+  "name": "monzo-dev-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "build-js": "webpack"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.17.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavyK/monzo-dev-portal.git"
+  },
+  "author": "davykavanagh@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavyK/monzo-dev-portal/issues"
+  },
+  "homepage": "https://github.com/DavyK/monzo-dev-portal#readme"
+}
