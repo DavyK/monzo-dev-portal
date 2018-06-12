@@ -20,3 +20,5 @@ I never got to Pagination, due to time. That would obviously be the next task to
 I used a lot of css-grid for the layout. Hopefully your browser is modern enough so that it doesn't look too awful. It probably won't look as intended in I.E.
 
 The **App** Avatars take a very long time to load so I'd like to see if I could do some progressive loading, though for avatars that might not be necessary.
+
+If I had more time I would also set up some sass, rather than just have 1 css file. Css gets hard to manage pretty quickly.
