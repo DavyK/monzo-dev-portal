@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import DevPortal from './Root';
 
-const header = () => (
-    <h1>Hello World!!!</h1>
+ReactDOM.render(
+    <DevPortal />,
+    document.getElementById("monzo-developer-portal-app"),
 );
-
-ReactDOM.render(header(), document.getElementById("monzo-developer-portal-app"));
